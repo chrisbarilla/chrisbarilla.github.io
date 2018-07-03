@@ -1,6 +1,19 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+html { 
+	position: relative:
+	min-height: 100%;
+}
 body {
   padding-top: 3.5rem;
+}
+
+
+.navbar{
+	background: rgba(0, 0, 0, 0.5) /* Green background with 30% opacity */
+}
+
+.bg-dark{
 }
 
 .jumbotron{
@@ -11,7 +24,21 @@ body {
 .mission-statement{
 	width: 80%; 
 	max-width: 300px;	
+	font-size: 1.1em;
 }
+
+
+.mission-statement b{
+	color: tomato;
+	font-size: 1.2em;
+}
+
+.mission-statement span{
+	font-weight: bold;
+	color: tomato;
+	font-size: 1.2em;
+}
+
 
 
 
@@ -41,6 +68,10 @@ body {
 
 
 
+.events{
+	font-size: 1.1em;
+}
+
 .event {
 	margin: 10px;
 	border-top: 1px solid rgba(0,0,0,.2);
@@ -52,6 +83,7 @@ body {
 }
 
 .event_date{
+	font-size: 1.2em;
 	font-weight:bold;
 }
 
@@ -80,8 +112,12 @@ body {
 .footer {
   /**
   background: #061D25;
-  */ 
-  padding: 10px 10px;
+  */
+    padding: 10px 10px;
+
+
+  
+  
 }
 .footer a {
   color: #70726F;
