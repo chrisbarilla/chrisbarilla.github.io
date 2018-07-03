@@ -21,6 +21,7 @@ body {
 	margin: 0;
 }
 
+
 .mission-statement{
 	width: 80%; 
 	max-width: 300px;	
@@ -29,13 +30,13 @@ body {
 
 
 .mission-statement b{
-	color: tomato;
+	color: red;
 	font-size: 1.2em;
 }
 
 .mission-statement span{
 	font-weight: bold;
-	color: tomato;
+	color: red;
 	font-size: 1.2em;
 }
 
@@ -105,9 +106,41 @@ body {
 	padding-left: 40px;
 }
 
+
+
+.follow-us{
+	margin-bottom: 15px;
+}
+
+.follow-us h4 row{
+	text-align: center:
+}
+
+.follow-us a{
+  color: red;
+  font-size: 20px;
+  padding: 10px;
+  transition: all .5s ease;
+}
+
+.follow-us a:hover {
+  color: black;
+}
+
+
+
+.newsletter-btn{
+	margin-top: 1.5em;
+}
+
+
+
 .google-document{
   text-align: center;
 }
+
+
+
 
 .footer {
   /**
